@@ -1,0 +1,48 @@
+.burgerContainer {
+  display: inline-block;
+  cursor: pointer;
+  z-index: 5;
+}
+.burgerBar1,
+.burgerBar2,
+.burgerBar3 {
+  width: 30px;
+  height: 2px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .burgerBar1 {
+  /* -webkit-transform: rotate(-405deg) translate(-9px, 6px);
+  transform: rotate(-405deg) translate(-9px, 6px);*/
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-6px, 5px);
+}
+
+.change .burgerBar2 {
+  opacity: 0;
+  /* transform: rotate(-1000deg) translate(0px, 0px); */
+}
+
+.change .burgerBar3 {
+  /* -webkit-transform: rotate(405deg) translate(-8px, -8px);
+  transform: rotate(405deg) translate(-8px, -8px); */
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+.burgerText {
+  font-size: 25px;
+  margin-left: 10px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.burgerGrid {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}

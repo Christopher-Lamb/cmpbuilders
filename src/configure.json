@@ -1,0 +1,59 @@
+{
+  "company-name": "CMP Builders",
+  "tagline": "THE LEADER IN SOLVING YOUR PROBLEMS",
+  "home-header-img": "https://media.istockphoto.com/id/1223022367/photo/beautiful-luxury-home-exterior-on-bright-sunny-day-with-green-grass-and-blue-sky-features.jpg?s=1024x1024&w=is&k=20&c=DGcj2RXhiUUnIBgvugGEX1d7qrLlpzh89_YBRcId1Fc=",
+  "logo": "https://149362210.v2.pressablecdn.com/wp-content/uploads/2018/04/img-placeholder-rectangle.jpg",
+  "phone": "(856) 904-2097",
+  "phone-href": "tel:8569042097",
+  "owner": "Chris Medany",
+  "email": "chris@cmpbuilders.com",
+  "address": "1098 Lexington Drive Deptford NJ 08096",
+  "nav-links": [
+    { "name": "Custom Building", "href": "/custom-building" },
+    { "name": "Plumbing", "href": "/plumbing" },
+    { "name": "Gallery", "href": "/gallery" },
+    { "name": "Estimate", "href": "/estimate" },
+    { "name": "About", "href": "/about" },
+    { "name": "Contact", "href": "/contact" }
+  ],
+  "footer-links": [
+    { "name": "Home", "href": "/" },
+    { "name": "Plumbing", "href": "/plumbing" },
+    { "name": "Custom Building", "href": "/custom-building" },
+    { "name": "Estimate", "href": "/estimate" },
+    { "name": "Contact", "href": "/contact" },
+    { "name": "About", "href": "/about" }
+  ],
+  "footer-faqs": [
+    { "name": "How long will this take?", "href": "/faq" },
+    { "name": "What do I need to provide?", "href": "/faq" },
+    { "name": "How do warrenties work?", "href": "/faq" },
+    { "name": "How soon will we come out?", "href": "/faq" },
+    { "name": "What are the qualifactions of the business?", "href": "/faq" }
+  ],
+  "faqs": [
+    {
+      "question": "How long will this take?",
+      "answer": "Deserunt magna non sint ipsum deserunt consectetur consequat amet. Incididunt laborum ipsum pariatur labore Lorem. Deserunt tempor tempor eiusmod ex velit duis enim. Dolor commodo commodo exercitation labore eiusmod magna cillum ullamco officia cillum voluptate."
+    },
+    {
+      "question": "What do I need to provide?",
+      "answer": "Irure eiusmod labore irure Lorem sunt proident anim incididunt exercitation officia eiusmod enim consequat adipisicing. Sint in magna qui labore nisi aliqua aliquip sunt est nostrud. Commodo laborum ullamco ullamco laboris amet duis. Elit ad minim dolore occaecat eu. Sit mollit nostrud exercitation occaecat pariatur enim officia amet. Tempor id officia aliquip minim anim minim sit laboris labore. Sit aute officia voluptate commodo et ea velit sint."
+    },
+    {
+      "question": "How do warrenties work?",
+      "answer": "Sunt dolore cillum magna sint est aliquip ex eu irure excepteur fugiat. Ex est dolore ipsum eiusmod ut minim non. Incididunt velit nostrud ipsum culpa cupidatat dolore pariatur in laborum. Ad dolore reprehenderit fugiat occaecat voluptate minim velit sunt enim. Culpa proident nostrud ex exercitation nulla eu qui enim commodo dolor in. Laboris sint officia et exercitation incididunt dolore ad voluptate eiusmod consectetur. Incididunt deserunt ullamco culpa incididunt eiusmod quis."
+    },
+    {
+      "question": "How soon will we come out?",
+      "answer": "Dolor culpa do do et officia in cillum quis id adipisicing aute. Veniam mollit enim excepteur veniam ipsum minim sit Lorem veniam mollit aliqua fugiat nisi excepteur. Duis incididunt id eu elit esse nisi sint ex eu non occaecat nostrud pariatur sunt. Dolore sit laborum labore ut. Nulla fugiat est elit nisi. Aliqua veniam labore occaecat qui reprehenderit sit incididunt laborum. Eiusmod veniam sit eu exercitation sint occaecat mollit pariatur ex."
+    },
+    {
+      "question": "What are the qualifactions of the business?",
+      "answer": "Tempor enim reprehenderit ut nulla sint sint cillum sunt ex laborum labore cupidatat ullamco. Occaecat occaecat veniam cupidatat reprehenderit consequat eu eiusmod nulla deserunt minim est quis. Commodo consequat cillum adipisicing qui exercitation sint consequat exercitation nostrud. Eu nisi non mollit fugiat incididunt veniam sunt."
+    }
+  ],
+  "facebook": "https://www.google.com",
+  "twitter": "https://www.google.com",
+  "instagram": "https://www.google.com"
+}

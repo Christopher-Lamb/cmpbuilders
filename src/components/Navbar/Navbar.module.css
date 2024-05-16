@@ -1,0 +1,12 @@
+.dropdown {
+  transform: translateY(calc(-1 * var(--dropdownHeight)));
+  transition: 250ms ease-out;
+  opacity: 0;
+}
+
+
+.down {
+  transform: translateY(0);
+  opacity: 1;
+}
+

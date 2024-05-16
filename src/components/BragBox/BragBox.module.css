@@ -1,0 +1,5 @@
+.container {
+  background-color: var(--primary-color);
+  background-size: cover;
+  background-image: url("./assets/TexturedBackground.png");
+}

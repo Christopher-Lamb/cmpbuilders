@@ -1,0 +1,164 @@
+.p {
+  margin: 0 0 5px;
+}
+
+.a,
+.label {
+  text-decoration: none;
+  color: #212529;
+  font-weight: 500;
+  border-top: 1px solid rgba(0, 0, 0, 0.233);
+}
+/* 
+.a:hover {
+  color: #ddd;
+} */
+
+.menu a {
+  display: block;
+  padding: 10px 15px;
+}
+
+.drop__down a {
+  min-width: 90px;
+}
+
+.drop__down__menu {
+  display: block;
+
+  margin-bottom: 1rem;
+}
+
+.menu__title {
+  cursor: pointer;
+}
+
+.menu__title {
+  display: block;
+  padding: 10px 15px;
+}
+
+.activate {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  margin: 0 0 0 -15px;
+  opacity: 0;
+}
+
+/* Skin */
+
+.menu a,
+.drop__down__menu {
+  background: transparent;
+}
+
+/* .menu a:hover,
+.drop__down__menu:hover {
+  background: #5a6470;
+} */
+
+.drop__down a {
+  background: #222;
+}
+
+.drop__down a:hover {
+  background: #111;
+}
+
+.menu {
+  /* background: #ffffff; */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 20rem auto;
+}
+
+.title {
+  width: 100%;
+  max-width: 1200px;
+  margin: 3rem auto 0 auto;
+  font-size: clamp(1.6rem, 2.3vw, 2.5rem);
+  letter-spacing: 0.03rem;
+  padding: 1rem;
+}
+
+/* :checked ~ .menu__title {
+  background: #495261;
+} */
+
+.drop__down {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.drop__down a {
+  background: #222;
+}
+
+.activate:checked ~ .drop__down {
+  max-height: 200px;
+}
+
+.drop__down,
+.menu a,
+.drop__down__menu {
+  -webkit-transform: translateZ(0);
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.arrow {
+  width: 1.2rem;
+  transition: 500ms;
+  user-select: none;
+}
+.arrowUp {
+  transform: rotate(180deg);
+  transition: 500ms;
+}
+
+.label {
+  font-size: 1.3rem;
+  letter-spacing: 0.02rem;
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 1rem;
+}
+
+.drop__down > p {
+  font-size: 1rem;
+  letter-spacing: 0.02rem;
+  line-height: 1.3;
+  padding: 10px 15px;
+  width: 100%;
+  /* border-top: 1px solid rgba(0, 0, 0, 0.233); */
+}
+
+@media (min-width: 576px) {
+  .label {
+    font-size: 1.5rem;
+  }
+  .drop__down > p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .label {
+    font-size: 1.5rem;
+  }
+  .drop__down > p {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+}

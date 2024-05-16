@@ -1,0 +1,47 @@
+.container {
+  height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* .imgWrapper {
+  position: relative;
+  width: 100%;
+} */
+
+/* .container img {
+  position: absolute;
+  min-width: 80rem;
+  width: 100%;
+  left: -20rem;
+} */
+
+.textWrapper {
+  position: relative;
+}
+.overlay {
+  background-color: black;
+}
+
+.text {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.22);
+  height: 25rem;
+  width: 100%;
+  z-index: 1;
+  text-shadow: 1px 1px 5px rgb(103, 97, 97);
+}
+
+@media (min-width: 992px) {
+  .container,
+  .text {
+    height: clamp(25rem, 42vw, 47rem);
+  }
+
+  /* .container img {
+    position: relative;
+    min-width: 80rem;
+    width: 100%;
+    left: 0;
+  } */
+}
